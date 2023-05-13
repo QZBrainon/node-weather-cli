@@ -1,7 +1,17 @@
 const weatherTypes = {
-    CLOUD: '☁️',
-    RAIN: '🌧️',
-    LIGTHNING: '⛈️',
-    SUN: '☀️',
-    PARTIALSUN: '⛅'
+    Mist:'🌫️',
+    Drizzle: '🌧️',
+    Clouds: '☁️',
+    Rain: '🌧️',
+    Thunderstorm: '⛈️',
+    Clear: '☀️',
+    Partial: '⛅',
+    Snow: '❄️',
+    Max: '🔼',
+    Min: '🔽',
+    Temp: '🌡️',
+    Humidity: '💧',
+    Wind: '🍃'
 }
+
+export default weatherTypes
