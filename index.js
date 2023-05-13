@@ -13,7 +13,6 @@ const main = async () => {
     try {
         console.clear()
         const cityName = process.argv[2]
-        console.log(cityName)
         const units = await inquirer.prompt({
             name: 'units',
             type: 'list',
@@ -27,7 +26,7 @@ const main = async () => {
         console.table(result)
     } catch (error) {
         spinner.stop('Done fetching')
-        console.log('Something went wrong. Try again later')
+        console.log('It seems there was a typo. Try again')
     }
 }
 
